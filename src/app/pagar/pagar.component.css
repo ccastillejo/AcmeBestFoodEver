@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+body {
+    background: url(imagenes/fondo.jpg)
+}
+
+@font-face {
+    font-family: themillion;
+    src: url(Cream.ttf)
+}
+
+h2 {
+    font-family: themillion;
+    font-size: 60px;
+    color: #008C00;
+    text-shadow: 1px -1px 0 #fff;
+    margin-top: 30px;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+}
+
+button {
+    overflow: visible;
+}
+
+#container {
+    border: solid 3px #474544;
+    max-width: 450px;
+    margin: left;
+    margin-left: 40px;
+    position: relative;
+    max-height: 580px;
+}
+
+form {
+    padding: 37.5px;
+    margin: 0.2px 10px;
+}
+
+.icon_wrapper {
+    margin: 20px auto 0;
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.icon {
+    display: block;
+    fill: #f8f4f2;
+    height: 70px;
+    margin: 0 auto;
+    width: 50px;
+}
+
+.email {
+    float: center;
+}
+
+.name {
+    float: center;
+}
+
+.telephone {
+    float: center;
+}
+
+#text {
+    color: red;
+    font-family: themillion;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#texto {
+    float: right;
+    padding: 2px 10px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 30px;
+    font-size: 15px;
+    color: black;
+    background: #fff;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 3.5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#totales {
+    float: left;
+    color: red;
+    font-family: themillion;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#boton {
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.cerrar {
+    float: right;
+    padding: 2px 10px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 30px;
+    font-size: 15px;
+    color: #fff;
+    background: #b9060f;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    background: #0d0d0e;
+    border: 1px solid rgba(256, 256, 256, 0.75);
+}
+
+#boton2 {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+h6 {
+    color: white;
+    margin-left: 30px;
+    font-size: 80%;
+}

@@ -1,0 +1,68 @@
+<body>
+    <h1>Bienvenido a <br> Acme Food Company</h1><br>
+    <div id="boton" routerLink="/acceso">
+        <button class="cerrar"> Cerrar Sesion </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h5>Estadisticas</h5>
+    <div id="tabla1">
+        <h2 class="text-center ">
+        </h2>
+        <table class="table table-sm table-dark ">
+            <thead>
+                <tr>
+                    <th scope="col ">Cliente</th>
+                    <th scope="col ">Lasagna</th>
+                    <th scope="col ">Hamburguesa</th>
+                    <th scope="col ">Sopa</th>
+                    <th scope="col ">Pasta</th>
+                    <th scope="col ">Asado</th>
+                    <th scope="col ">CP</th>
+                    <th scope="col ">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="inte" *ngFor=" let contact of datos " routerLink="/contact/{{contact.id}} ">
+                    <td>{{contact.Email}}</td>
+                    <td>{{contact.Lasagna}}</td>
+                    <td>{{contact.Hamburguesa}}</td>
+                    <td>{{contact.Sopa}}</td>
+                    <td>{{contact.Pasta}}</td>
+                    <td>{{contact.Asado}}</td>
+                    <td>{{contact.TotalProductos}}</td>
+                    <td>${{contact.TotalPagar}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>

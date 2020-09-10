@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+/*BODY*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    height: 500px;
+    background: url(imagenes/fondo2.jpg)
+}
+
+#wrapper {
+    /* Center wrapper perfectly */
+    width: 300px;
+    height: 400px;
+    margin: 70px auto;
+}
+
+
+/* Parte de arriba */
+
+.login-form {
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    background: #aa0505;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/*******************
+HEADER
+*******************/
+
+.login-form .header {
+    padding: 20px 30px 10px 30px;
+}
+
+@font-face {
+    font-family: themillion;
+    src: url(Cream.ttf)
+}
+
+.login-form .header h1 {
+    font-family: themillion;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 34px;
+    color: #070a0a;
+    margin-bottom: 10px;
+}
+
+
+/* Contenido */
+
+.login-form .content {
+    padding: 0 20px 25px 30px;
+}
+
+
+/* Input 1*/
+
+.login-form .content .input {
+    width: 188px;
+    padding: 5px 15px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9e9d9d;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
+
+
+/* Input 2*/
+
+.login-form .content .password,
+.login-form .content .pass-icon {
+    margin-top: 25px;
+}
+
+.login-form .content .input:hover {
+    background: #dfe9ec;
+    color: #414848;
+}
+
+.login-form .content .input:focus {
+    background: #dfe9ec;
+    color: #414848;
+}
+
+
+/*iconos*/
+
+.user-icon,
+.pass-icon {
+    width: 45px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    padding-right: 2px;
+    z-index: -1;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+}
+
+.user-icon {
+    top: 70px;
+    background: rgba(65, 72, 72, 0.75) url(http://www.demo.amitjakhu.com/login-form/images/user-icon.png) no-repeat center;
+}
+
+.pass-icon {
+    top: 105px;
+    background: rgba(65, 72, 72, 0.75) url(http://www.demo.amitjakhu.com/login-form/images/pass-icon.png) no-repeat center;
+}
+
+.content input:focus+div {
+    left: -46px;
+}
+
+
+/* Animacion */
+
+.input,
+.user-icon,
+.pass-icon,
+.button,
+.register {
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+
+/*Parte de abajo*/
+
+.login-form .footer {
+    padding: 15px 30px 20px 30px;
+    overflow: auto;
+    background: #9a9c9c;
+    border-top: 1px solid #fff;
+}
+
+
+/* Registrese */
+
+.login-form .footer .register {
+    float: left;
+    padding: 1px 15px;
+    font-family: themillion;
+    font-weight: 300px;
+    font-size: 22px;
+    color: #fff;
+    background: #b9060f;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45px;
+}
+
+.login-form .footer .register:hover {
+    background: #0d0d0e;
+    border: 1px solid rgba(256, 256, 256, 0.75);
+}
+
+p {
+    margin-left: 10px;
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+
+#form1 {
+    float: right;
+    margin-right: 170px;
+}
+
+@font-face {
+    font-family: themillion;
+    src: url(Cream.ttf)
+}
+
+h2 {
+    font-family: themillion;
+    font-size: 80px;
+    text-shadow: 1px -1px 0 #fff;
+    color: #aa0505;
+    margin-top: 30px;
+    float: left;
+    margin-left: 800px;
+    text-align: center;
+    font-weight: bold;
+}

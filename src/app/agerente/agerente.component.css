@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+body {
+    background: url(imagenes/fondo3.jpg)
+}
+
+@font-face {
+    font-family: themillion;
+    src: url(Cream.ttf)
+}
+
+h1 {
+    font-family: themillion;
+    font-size: 60px;
+    color: black;
+    text-shadow: 1px -1px 0 #fff;
+    margin-top: 30px;
+    float: right;
+    margin-right: 150px;
+    text-align: center;
+}
+
+#boton {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.cerrar {
+    float: right;
+    padding: 2px 10px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 30px;
+    font-size: 15px;
+    color: #fff;
+    background: #b9060f;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    background: #0d0d0e;
+    border: 1px solid rgba(256, 256, 256, 0.75);
+}
+
+#tabla1 {
+    float: left;
+    width: 20px;
+    margin-left: 580px;
+    text-align: center;
+}
+
+#inte {
+    background: rgba(211, 193, 193, 0.445);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+h5 {
+    margin-left: 850px;
+    font-family: themillion;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px -1px 0 black;
+}

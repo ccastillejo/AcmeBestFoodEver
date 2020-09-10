@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "acme-food-company": {
+      "hosting": {
+        "acme-food-company": [
+          "acme-food-company"
+        ]
+      }
+    }
+  }
+}

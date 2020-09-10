@@ -1,0 +1,24 @@
+<div id="wrapper">
+
+    <form #formLogin="ngForm" (ngSubmit)="onLogin(formLogin)" class="login-form ">
+
+        <div class=" header ">
+            <h1 align="center ">Gerente</h1>
+
+        </div>
+
+        <div class="content ">
+            <input name="email" type="email" placeholder="Email " class="input username " [(ngModel)]="user.email " />
+            <div class=" user-icon "></div>
+            <input name="password" type="password" placeholder="Contraseña " class="input password " [(ngModel)]="user.password " />
+            <div class="pass-icon "></div>
+        </div>
+        <br>
+        <div class="footer ">
+            <button type="submit " class="button" routerLink="/agerente"> Entrar </button>
+        </div>
+
+
+    </form>
+</div>
+<div class="gradient "></div>

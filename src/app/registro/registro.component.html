@@ -1,0 +1,38 @@
+<body>
+
+
+    <h2> Acme Food <br> Company</h2>
+    <div id="form1">
+
+        <div id="wrapper">
+
+            <form [formGroup]="registerForm" (ngSubmit)="onRegister()" class="login-form">
+
+                <div class="header">
+                    <h1 align="center">Registrese</h1>
+
+                </div>
+
+                <div class="content">
+                    <input name="username " type="email" matInput class="input username" placeholder="Email " formControlName="email" />
+                    <div class=" user-icon "></div>
+                    <input name="password " type="password" matImput class="input password" placeholder="Contraseña " formControlName="contasena" />
+                    <div class="pass-icon "></div>
+                </div>
+                <div class="link">
+                    <p>¿Tiene una cuenta?
+                        <a routerLink="/acceso">Ingrese</a>
+                    </p>
+
+                </div>
+                <div class="footer">
+                    <button type="submit " class="register"> Registrar </button>
+
+                </div>
+
+            </form>
+
+        </div>
+        <div class="gradient "></div>
+    </div>
+</body>

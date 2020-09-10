@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "acme-food-company",
+      "public": "dist/acme-food-company",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

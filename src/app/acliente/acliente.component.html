@@ -1,0 +1,149 @@
+<body>
+    <h1>Bienvenido a <br> Acme Food Company</h1><br>
+
+    <div id="boton" routerLink="/acceso">
+        <button class="cerrar"> Cerrar Sesion </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h5>Menu</h5>
+    <h6>Escoja sus productos, recuerde que por el mes de septiembre si compras 2 cantidades del mismo <br>producto la segunda le sale gratis. </h6>
+    {{confirmar()}} {{lasagna()}}{{hamburguesa()}}{{sopa()}}{{pasta()}}{{asado()}}
+    <div id="boton3">
+        <button class="sumar" (click)="sumar()" [disabled]="desa"> + </button>
+    </div>
+    <div id="texto">
+        {{numero1}}
+    </div>
+    <div id="boton2">
+        <button class="cerrar" (click)="restar()"> -- </button>
+    </div>
+
+    <div id="cuerpo">
+        <div>
+            <div id="form1">
+                <h2>Lasagna de sesos de mono....................................</h2>
+            </div>
+            <div id="form2">
+                <h3>$20</h3>
+            </div>
+
+            <div id="form3">
+                <h4>Laminas de lasgana a la chimpance, carne de gorila y queso.</h4>
+            </div>
+        </div>
+    </div>
+    <div id="boton3">
+        <button class="sumar" (click)="sumar2()" [disabled]="desa"> + </button>
+    </div>
+    <div id="texto">
+        {{numero2}}
+    </div>
+    <div id="boton2">
+        <button class="cerrar" (click)="restar2()"> -- </button>
+    </div>
+    <div id="cuerpo">
+        <div id="form1">
+            <h2>Hamburguesa de serpiente...................................</h2>
+        </div>
+        <div id="form2">
+            <h3>$25</h3>
+        </div>
+        <div id="form3">
+            <h4>Carne de serpiente, pan de culebra y salsa a la serpiente.</h4>
+        </div>
+    </div>
+
+    <div id="boton3">
+        <button class="sumar" (click)="sumar3()" [disabled]="desa"> + </button>
+    </div>
+
+    <div id="texto">
+        {{numero3}}
+    </div>
+    <div id="boton2">
+        <button class="cerrar" (click)="restar3()"> -- </button>
+    </div>
+    <div id="cuerpo">
+        <div>
+            <div id="form1">
+                <h2>Sopa de topo con salchichon en trozos.....................</h2>
+            </div>
+            <div id="form2">
+                <h3>$15</h3>
+            </div>
+            <div id="form3">
+                <h4>Salsa de topo bebe, salcichon de tierra y agua del pozo.</h4>
+            </div>
+        </div>
+    </div>
+    <div id="boton3">
+        <button class="sumar" (click)="sumar4()" [disabled]="desa"> + </button>
+    </div>
+    <div id="texto">
+        {{numero4}}
+    </div>
+    <div id="boton2">
+        <button class="cerrar" (click)="restar4()"> -- </button>
+    </div>
+    <div id="cuerpo">
+        <div>
+            <div id="form1">
+                <h2>Pasta de gato al trapo..........................................</h2>
+            </div>
+            <div id="form2">
+                <h3>$15</h3>
+            </div>
+            <div id="form3">
+                <h4>Pasta de gato mama, trapo sucio y salsa boloñesa.</h4>
+            </div>
+        </div>
+    </div>
+    <div id="boton3">
+        <button class="sumar" (click)="sumar5()" [disabled]="desa"> + </button>
+    </div>
+    <div id="texto">
+        {{numero5}}
+    </div>
+    <div id="boton2">
+        <button class="cerrar" (click)="restar5()"> -- </button>
+    </div>
+    <div id="cuerpo">
+        <div>
+            <div id="form1">
+                <h2>Asado de buitre al pastor......................................</h2>
+            </div>
+            <div id="form2">
+                <h3>$40</h3>
+            </div>
+            <div id="form3">
+                <h4>Buitre recien bañado y salsa dulce.</h4>
+                <div id="texto2">
+                    {{productos()}}{{confirmar()}}{{precio()}}{{totalprecio}} {{confirmar()}}
+                </div>
+                <div id="texto3">
+                    Total
+                </div>
+                <div id="boton4">
+                    <button class="cerrar" routerLink="/pagar"> Ir a pagar </button>
+                </div>
+                <br>
+                <br>
+                <div id="h7"> Terminos y condiciones: Solo se permiten comprar 4 cantidades del mismo producto y solo se pueden comprar 5 productos en la misma orden. </div>
+                <br>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+</body>
